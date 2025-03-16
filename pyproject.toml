@@ -1,0 +1,14 @@
+[project]
+name = "pytest-drf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.1.7",
+    "django-redis>=5.4.0",
+    "djangorestframework>=3.15.2",
+    "faker>=37.0.0",
+    "pymemcache>=4.0.0",
+    "pytest-django>=4.10.0",
+]
